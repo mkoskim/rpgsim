@@ -93,9 +93,9 @@ class Action(object):
 
 #-------------------------------------------------------------------------------
 
-Action("Time", "HunterGather")
-Action("HunterGather", "Berries")
-Action("HunterGather", "Vegetables")
+Action("Time", "Gather")
+Action("Gather", "Berries")
+Action("Gather", "Vegetables")
 
 #-------------------------------------------------------------------------------
 #
